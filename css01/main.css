@@ -1,0 +1,13 @@
+@charset "UTG-8"; /*한글 해석 방식 설정*/
+
+h1 {
+  text-align: center;
+  padding: 2rem 0;
+  color: chartreuse;
+  letter-spacing: 0.2rem;
+  font-style: italic;
+}
+
+h2 {
+  color: rgb(255, 0, 0);
+}

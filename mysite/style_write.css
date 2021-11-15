@@ -1,0 +1,121 @@
+textarea {
+  width: 100%;
+}
+
+/************* contents main ***************/
+.contents main {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
+  margin-top: 2.5rem;
+}
+/*********** main-header ********************/
+.main-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  border-bottom: 1px solid black;
+  height: 2rem;
+  line-height: 2rem;
+}
+
+.main-header ul {
+  list-style: none;
+  display: flex;
+  line-height: 2rem;
+}
+.main-header ul li:not(#last)::after {
+  content: ">";
+  position: inline-block;
+  margin: 0 0.5rem;
+}
+/******************* main-form *****************/
+.main-form {
+  display: flex;
+  justify-content: right;
+  margin-top: 1.5rem;
+}
+.main-form input {
+  margin-right: 0.3rem;
+}
+/****************** main-table **********************/
+.main-table {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 1rem 0;
+}
+.main-table thead {
+  background-color: #dddddd;
+  font-weight: 700;
+}
+.main-table tr {
+  border-bottom: 1px dotted black;
+  height: 2.5rem;
+}
+/****************** main-under **********************/
+.main-under {
+  position: relative;
+  margin-bottom: 2rem;
+}
+.main-under ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.main-under ul li {
+  padding: 0.3rem;
+  cursor: pointer;
+  margin: 0 0.2rem;
+}
+.main-under button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+main.write-main .form-ele {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5rem;
+}
+
+main.write-main .form-ele h4 {
+  position: inline-block;
+  width: 15%;
+}
+
+main.write-main textarea {
+  margin-top: 0.5rem;
+}
+
+.form-ele input[type="text"] {
+  width: 85%;
+}
+
+.form-ele input[type="checkbox"],
+.form-ele input[type="radio"],
+.form-ele label {
+  margin-right: 0.3rem;
+}
+.form-ele:nth-child(8) {
+  height: 3rem;
+  border-bottom: #dddddd solid 1px;
+}
+.form-ele:nth-child(8) label {
+  line-height: 2rem;
+  width: 15%;
+}
+.form-ele:nth-child(8) input {
+  line-height: 2rem;
+}
+.form-ele:nth-child(9) {
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+.form-ele:nth-child(9) button {
+  margin-left: 1rem;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .bar {
+            background-color:navy;
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 1.5rem;
+        }
+        .bar .menu ul {
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            color: white;
+        }
+        .bar .menu ul li {
+            font-size: 1.3rem;
+            letter-spacing: .5rem;
+            margin-left: 1rem;
+            padding: .3rem;
+            text-align: center;
+        }
+        .bar .menu ul li:hover {
+            background-color: black;
+            border-radius: 5rem;
+        }
+        /* #home {
+            background-image: url("./img/back_img02.jpg");
+            position: absolute;
+            width: 100%;
+        } */
+    </style>
+</head>
+<body>
+    <div class="bar">
+        <div class="logo">
+            <img src="./img/star.jpg" alt="">
+        </div>
+        <div class="menu">
+            <ul>
+                <li>소개</li>
+                <li>연구</li>
+                <li>역사</li>
+            </ul>
+        </div>
+    </div>
+    <section id="home">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur deleniti molestiae exercitationem odio sed vitae.
+        </p>
+    </section>
+</body>
+</html>

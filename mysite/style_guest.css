@@ -1,0 +1,25 @@
+table {
+  border: 1px #797979 solid;
+  border-collapse: collapse;
+  max-width: 700px;
+  color: #797979;
+  margin-bottom: 1rem;
+  /* vertical-align: middle; */
+}
+td {
+  border: 1px #797979 solid;
+  padding: 0.3rem 0.5rem;
+}
+td input {
+  width: 95%;
+  height: 100%;
+}
+tr:nth-child(2) textarea {
+  width: 100%;
+}
+tr:nth-child(3) {
+  text-align: center;
+}
+tr:nth-child(3) button {
+  padding: 0.3rem 1.5rem;
+}

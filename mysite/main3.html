@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style_write.css">
+</head>
+<body>
+    <div class="wrap">
+        <header >
+            <h1 id="logo">
+                <a href="#">MySite</a>
+            </h1>
+            <ul>
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+            </ul>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">입사지원서</a></li>
+                <li><a href="#">게시판</a></li>
+                <li><a href="#">갤러리</a></li>
+                <li><a href="#">방명록</a></li>
+            </ul>
+        </nav>
+        <div class="contents">
+            <aside>
+                <h2>게시판</h2>
+                <ul>
+                    <li>일반 게시판</li>
+                    <li>댓글 게시판</li>
+                    <li>첨부 게시판</li>
+                </ul>
+            </aside>
+            <main class="write-main">
+                <form action="" method="">
+                    <div class="main-header">
+                        <h2>일반 게시판</h2>
+                        <ul>
+                            <li>홈</li>
+                            <li>게시판</li>
+                            <li id="last">일반 게시판</li>
+                        </ul>
+                    </div>
+                    <div class="form-ele">
+                        <h4>게시판 선택</h4>
+    
+                        <select name="" id="select">
+                            <option value="">option 1</option>
+                            <option value="">option 2</option>
+                            <option value="">option 3</option>
+                        </select>    
+                    </div>
+                    <div class="form-ele">
+                        <h4>제목</h4>
+    
+                        <input type="text" >    
+                    </div>
+                    <div class="form-ele">
+                        <h4>비밀번호</h4>
+    
+                        <input type="password">    
+                    </div>
+                    <div class="form-ele">
+                        <h4>공개범위</h4>
+    
+                        <label for="라디오-본인">본인</label>
+                        <input type="radio" value="본인" name="공개범위" checked id="라디오-본인">
+                        <label for="라디오-로그인회원">로드인 회원</label>
+                        <input id="라디오-로드인회원" type="radio" value="로그인 회원"  name="공개범위">
+                        <label for="라디오-친구">친구</label>
+                        <input id="라디오-친구" type="radio" value="친구"  name="공개범위">
+                        <label for="라디오-전체">전체</label>
+                        <input id="라디오-전체" type="radio" value="전체"  name="공개범위">    
+                    </div>
+                    <div class="form-ele">
+                        <h4>적용범위</h4>
+    
+                        <label for="체크-댓글허용">댓글허용</label>
+                        <input type="checkbox" value="댓글허용" name="적용범위" checked>
+                        <label for="체크-답글허용">답글허용</label>
+                        <input id="체크-답글허용" type="checkbox" value="답글 허용" name="적용범위">
+                        <label for="체트-좋아요허용">좋아요허용</label>
+                        <input id="좋아요허용" type="checkbox" value="좋아요 허용" name="적용범위">    
+                    </div>
+    
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    
+                    <div class="form-ele">
+                        <label for="">첨부파일</label>
+                        <input type="file">    
+                    </div>
+                    <div class="form-ele">
+                        <button>
+                            등록
+                        </button>
+                        <button>
+                            초기화
+                        </button>
+                    </div>
+    
+                </form>
+
+            </main>
+        </div>
+        <footer>
+            Copylight @ Lorem ipsum dolor sit amet.
+        </footer>
+    
+    </div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex10</title>
+    <style>
+        .firstUl li{
+            width:90px;
+            height: 30px;
+            float: left;
+            list-style: none;
+            border-right: 3px black solid;
+            margin-right: 2rem;
+            padding-left: 13px;
+            line-height: 30px;
+            font-size: 1.2rem;
+
+            background-image: url("./img/star.jpg");
+            background-size: 10px 10px;
+            background-repeat: no-repeat;
+            background-position: left center;
+        }
+        .firstUl li:hover {
+            background: #dddddd;
+            cursor: pointer;
+        }
+        /*               second               */
+        .second li{
+            float: left;
+            list-style: none;
+            margin-right: .3rem;
+            font-size: 1.2rem;
+        }
+        .second li:hover {
+            background: #dddddd;
+            cursor: pointer;
+        }
+        .second li::after {
+            content: ">";
+            display: inline-block;
+            margin-left: .5rem;
+            font-weight: 700;
+        }
+        .second li:nth-child(4)::after {
+            content: '';
+        }
+        #last {
+            border: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, sed!
+    </div>
+
+    <div>
+        <ul class="firstUl">
+            <li>menu 1</li>
+            <li>menu 2</li>
+            <li>menu 3</li>
+            <li id="last">menu 4</li>
+        </ul>    
+    </div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste debitis aliquam pariatur saepe optio exercitationem voluptas aliquid dolore placeat praesentium dolores, voluptatum ducimus at libero omnis ipsa excepturi quod odit.
+    </p>
+    <ul class='second'>
+        <li>fdas</li>
+        <li>fdaa</li>
+        <li>fdaa</li>
+        <li>fdas</li>
+    </ul>
+</body>
+</html>

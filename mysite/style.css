@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+body,
+div,
+ul,
+li,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+fieldset,
+legend,
+p,
+select,
+table,
+tr,
+th,
+td,
+textarea,
+button,
+form {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "맑은 고딕", 돋음, 굴림;
+  font-size: 12px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+a:link {
+  text-decoration: none;
+  color: #000;
+}
+a:visited {
+  text-decoration: none;
+  color: #000;
+}
+button {
+  padding: 0.2rem 0.5rem;
+}
+/*         section           */
+header {
+  background-color: #fff;
+}
+
+nav {
+  background-color: #fff;
+  border-top: 2px gray solid;
+  border-bottom: 2px gray solid;
+}
+
+main {
+  background-color: #fff;
+}
+
+footer {
+  background-color: #f00;
+}
+
+/******************** header ************************/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+#logo a {
+  font-size: 35px;
+  color: crimson;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+header ul li {
+  margin-left: 1rem;
+  font-weight: 700;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  transition: 0.5s;
+}
+/* 
+header ul li:hover {
+  background-color: crimson;
+  color: white;
+  cursor: pointer;
+  box-shadow: -3px -3px 3px gray;
+} */
+/**************************** nav ****************************/
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0.7rem;
+}
+nav ul li {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+/************************ main ****************************/
+main {
+  display: flex;
+  justify-content: space-around;
+  padding: 5rem 0;
+}
+.img-box {
+  width: 40%;
+}
+main img {
+  width: 100%;
+}
+main .intro {
+  width: 50%;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+main .intro h2 {
+  margin-bottom: 1rem;
+}
+/*********************** footer ****************************/
+footer {
+  padding: 1rem;
+  text-align: center;
+  background-color: #dddddd;
+}
+
+/************************ contents *************************/
+.contents {
+  display: flex;
+}
+/**************** contents aside ******************/
+.contents aside {
+  width: 20%;
+  /* padding: 1rem; */
+  margin-right: 1rem;
+}
+.contents aside h2 {
+  background-color: #dddddd;
+  height: 3.5rem;
+  line-height: 3.5rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+.contents aside ul {
+  list-style: none;
+}
+.contents aside ul li {
+  border: 1px #000 solid;
+  margin-top: 0.3rem;
+  height: 1.7rem;
+  line-height: 1.7rem;
+  font-size: 1rem;
+  padding-left: 0.5rem;
+}
+/************* contents main ***************/
